@@ -1,12 +1,27 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "io.github.rotundtapir.fivehundred",
       "sha256_cert_fingerprints": [
         "66:17:29:35:A4:6E:66:28:76:97:29:57:2B:3B:E1:6B:37:4B:F0:21:06:64:DA:C7:21:26:19:CB:38:8A:FD:A2",
         "86:C4:86:10:5E:D5:06:2B:90:81:5F:EC:97:31:10:29:AB:55:69:73:59:26:C3:23:C7:89:6C:8D:64:B7:8D:65",
+        "13:78:C0:29:31:95:31:5C:AB:D1:97:36:C2:C1:07:1C:35:26:95:B7:C8:52:0D:CC:E3:E6:96:F6:5D:01:67:D9"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.rotundtapir.euchre",
+      "sha256_cert_fingerprints": [
+        "66:83:93:BE:0B:C6:20:D2:7B:B0:05:57:42:9F:62:69:35:A7:DA:B2:D6:AA:23:FA:35:C5:F0:BB:49:71:15:5F",
         "13:78:C0:29:31:95:31:5C:AB:D1:97:36:C2:C1:07:1C:35:26:95:B7:C8:52:0D:CC:E3:E6:96:F6:5D:01:67:D9"
       ]
     }
