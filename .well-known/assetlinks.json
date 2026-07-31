@@ -21,8 +21,7 @@
       "namespace": "android_app",
       "package_name": "io.github.rotundtapir.euchre",
       "sha256_cert_fingerprints": [
-        "66:83:93:BE:0B:C6:20:D2:7B:B0:05:57:42:9F:62:69:35:A7:DA:B2:D6:AA:23:FA:35:C5:F0:BB:49:71:15:5F",
-        "13:78:C0:29:31:95:31:5C:AB:D1:97:36:C2:C1:07:1C:35:26:95:B7:C8:52:0D:CC:E3:E6:96:F6:5D:01:67:D9"
+        "66:83:93:BE:0B:C6:20:D2:7B:B0:05:57:42:9F:62:69:35:A7:DA:B2:D6:AA:23:FA:35:C5:F0:BB:49:71:15:5F"
       ]
     }
   }
