@@ -1,5 +1,89 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
 <meta charset="utf-8">
-<title>500 — card game</title>
-<meta http-equiv="refresh" content="0; url=/500/">
-<p>Redirecting to <a href="/500/">the 500 card game</a>…</p>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rotund Tapir — card games</title>
+<meta name="description" content="Free, open-source card games: 500 (Australian rules) for Android and the browser — play offline against bots or online with friends.">
+<style>
+  :root {
+    --felt: #1b5e33;
+    --felt-dark: #144726;
+    --card: #fdfdf8;
+    --ink: #1b1b1b;
+    --accent: #c8a24a;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: radial-gradient(ellipse at 50% 30%, var(--felt), var(--felt-dark));
+    color: #f2f2ee;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1.25rem 2rem;
+  }
+  header { text-align: center; margin-bottom: 2.5rem; }
+  header h1 { font-size: 2rem; letter-spacing: 0.02em; }
+  header p { opacity: 0.85; margin-top: 0.5rem; }
+  main { width: 100%; max-width: 640px; display: grid; gap: 1.5rem; }
+  .game {
+    background: var(--card);
+    color: var(--ink);
+    border-radius: 14px;
+    padding: 1.5rem 1.75rem;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.35);
+  }
+  .game h2 { font-size: 1.4rem; }
+  .game h2 .suits { color: #b3262c; font-size: 1.1rem; margin-left: 0.35rem; }
+  .game h2 .suits .blk { color: var(--ink); }
+  .game p { margin: 0.6rem 0 1rem; line-height: 1.45; }
+  .links { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+  .links a {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 0.55rem 0.95rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border: 2px solid var(--felt);
+    color: var(--felt);
+    background: transparent;
+  }
+  .links a.primary { background: var(--felt); color: #fff; }
+  .links a:hover { filter: brightness(1.12); }
+  .soon { opacity: 0.75; }
+  .soon h2 { color: #444; }
+  footer { margin-top: auto; padding-top: 2.5rem; font-size: 0.85rem; opacity: 0.75; text-align: center; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Rotund Tapir</h1>
+  <p>Free &amp; open-source card games — no accounts, no tracking.</p>
+</header>
+<main>
+  <section class="game">
+    <h2>500 <span class="suits"><span class="blk">♠</span>♥<span class="blk">♣</span>♦</span></h2>
+    <p>The classic Australian trick-taking game. Play offline against bots, or online with
+       friends — cross-play between Android and your browser, joined with a 4-letter code.</p>
+    <div class="links">
+      <a class="primary" href="https://rotundtapir.github.io/500/">Play in your browser</a>
+      <a href="https://f-droid.org/packages/io.github.rotundtapir.fivehundred/">Get it on F-Droid</a>
+      <a href="https://github.com/rotundtapir/500">Source code</a>
+    </div>
+  </section>
+  <section class="game soon">
+    <h2>Euchre</h2>
+    <p>In development — same table, different game.</p>
+  </section>
+</main>
+<footer>
+  <p>GPL-3.0-or-later · <a href="https://github.com/rotundtapir">GitHub</a> ·
+     <a href="https://liberapay.com/rotund-tapir">Donate</a> ·
+     <a href="https://github.com/rotundtapir/500/issues">Report a problem</a></p>
+</footer>
+</body>
+</html>
