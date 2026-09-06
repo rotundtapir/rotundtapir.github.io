@@ -55,6 +55,9 @@
   .links a:hover { filter: brightness(1.12); }
   .soon { opacity: 0.75; }
   .soon h2 { color: #444; }
+  .badge { display: inline-block; margin-left: 0.5rem; padding: 0.1rem 0.5rem; border-radius: 999px;
+           background: #b3262c; color: #fff; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.04em;
+           text-transform: uppercase; vertical-align: middle; }
   footer { margin-top: auto; padding-top: 2.5rem; font-size: 0.85rem; opacity: 0.75; text-align: center; }
   footer a { color: var(--accent); }
 </style>
@@ -75,15 +78,23 @@
       <a href="https://github.com/rotundtapir/500">Source code</a>
     </div>
   </section>
-  <section class="game soon">
-    <h2>Euchre</h2>
-    <p>In development — same table, different game.</p>
+  <section class="game">
+    <h2>Euchre <span class="suits"><span class="blk">♠</span>♥<span class="blk">♣</span>♦</span><span class="badge">Beta</span></h2>
+    <p>Same table, different game. Four-player North American rules, with a four-lesson tutorial —
+       play offline against bots, or online with friends, cross-play between Android and your
+       browser. Still in beta: expect rough edges, and please report them.</p>
+    <div class="links">
+      <a class="primary" href="https://rotundtapir.github.io/euchre/">Play in your browser</a>
+      <a href="https://github.com/rotundtapir/euchre/releases/latest">Download for Android</a>
+      <a href="https://github.com/rotundtapir/euchre">Source code</a>
+    </div>
   </section>
 </main>
 <footer>
   <p>GPL-3.0-or-later · <a href="https://github.com/rotundtapir">GitHub</a> ·
      <a href="https://liberapay.com/rotund-tapir">Donate</a> ·
-     <a href="https://github.com/rotundtapir/500/issues">Report a problem</a></p>
+     Report a problem: <a href="https://github.com/rotundtapir/500/issues">500</a> ·
+     <a href="https://github.com/rotundtapir/euchre/issues">Euchre</a></p>
 </footer>
 </body>
 </html>
